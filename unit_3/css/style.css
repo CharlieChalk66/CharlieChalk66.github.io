@@ -3,7 +3,8 @@ body {
     text-align: center;
     color: #fff;
     font-family: Helvetica;
-    background-size: 20px 40px;
+    background-size: 10px 10px;
+    background-position: center;
 
 }
 
