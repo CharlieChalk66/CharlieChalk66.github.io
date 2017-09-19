@@ -15,7 +15,10 @@ header {
 	padding: 20px;
 }
 h1{
-	color: #ffffff;
+	color: #004056;
+}
+h2{
+	color: #2C858D;
 }
 a{
 	color: 35A67C;
@@ -23,9 +26,23 @@ a{
 }
 nav a {
 	color: #CCCCCC;
-	font-style: italic;
+	font-style: ;
 	margin-right: 10px;
 }
 img{
 	width: 100%;
+}
+main {
+	padding: 20px;
+}
+footer {
+	background-color: #2C858D;
+	padding: 20px;
+	text-align: center;
+	color: #CCCCCC;
+}
+h3{
+	margin-bottom: 20px;
+	margin-top: 20px;
+	color: 74CEB7;
 }
