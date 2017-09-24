@@ -75,20 +75,16 @@ h5 {
 	color: 74CEB7;
 	font-size: 18px;
 }
-
-.what_we_do{
-	width:30em;
- 	margin:2em auto;
+.location{
+	width:40em;
 }
-.exercise{
+.description{
 	width:30em;
- 	margin:2em auto;
 }
-.pricing{
+.amenities{
 	width:30em;
- 	margin:2em auto;
 }
 .question{
-	width:30em;
- 	margin:2em auto;
+	width:70em;
+ 	text-align: center;
 }
