@@ -1,38 +1,20 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway|Roboto+Slab');
+
 * {
 	padding: 0;
 	margin: 0;
-
+	box-sizing:border-box; 
 }
 
 body {
-    font-family: Helvetica, Arial, Sans-Serif;
-    font-size: 20px;
-    color: 222222;
-    line-height: 1.3; 
+	font-family: Raleway, sans-serif;
+    font-size: 1.25em; /*1em = 16px*/
+    color: ccc;
+    line-height: 1.3;
+    
 }
 header {
-	background-color: #35A67C;
-	padding: 20px;
-}
-h1{
-	color: #004056;
-	font-size: 30px;
-	text-align: center;
-}
-h2{
-	color: #2C858D;
-	font-size: 25px;
-	font-style: italic;
-	text-align: center;
-}
-a{
-	color: 35A67C;
-	text-decoration: none;
-}
-img{
-	width: 100%;
-}
-main {
+	background-color: #2C858D;
 	padding: 20px;
 }
 footer {
@@ -41,28 +23,68 @@ footer {
 	text-align: center;
 	color: #CCCCCC;
 }
+img{
+	width: 100%;
+}
+main {
+	padding: 20px;
+}
+a{
+	color: 35A67C;
+	text-decoration: none;
+}
+h1{
+	font-family: 'Roboto Slab', serif;
+	color: #004056;
+	font-size: 3em;
+	text-align: center;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+h2{
+	font-family: 'Roboto Slab', serif;
+	color: #ccc;
+	font-size: 1.5em;
+	text-align: center;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
 h3{
+	font-family: 'Roboto Slab', serif;
 	margin-bottom: 20px;
 	margin-top: 20px;
 	color: 74CEB7;
-	font-size: 20px;
+	font-size: 1.5em;
+	width:30em;
+ 	margin:2em auto;
 }
-ul{
-	padding: 20px;
-    list-style-type: none;
-}
-h3 {
 
-}
 h4 {
+	font-family: 'Roboto Slab', serif;
 	margin-bottom: 15px;
 	margin-top: 15px;
 	color: 74CEB7;
-	font-size: 18px;
+	font-size: 1em;
+	text-decoration-style: bold;
 }
 h5 {
+	font-family: 'Roboto Slab', serif;
 	margin-bottom: 10px;
 	margin-top: 10px;
 	color: 74CEB7;
 	font-size: 18px;
+}
+.location{
+	width:40em;
+}
+.description{
+	width:30em;
+}
+.amenities{
+	width:30em;
+}
+.question{
+	width:70em;
+ 	text-align: center;
 }
