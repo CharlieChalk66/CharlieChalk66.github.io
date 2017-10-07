@@ -12,16 +12,37 @@ body {
 	line-height: 1.5;
 }
 header {
-	background-color: #2C858D;
+	background-color: #FFED74;
+	border: 1px black solid;
+	padding: 20px;
+}
+nav {
+	background-color: #E8C66A;
+	border: 1px black solid;
+	padding: 20px;
+}
+aside {
+	background-color: #FFC675;
+	border: 1px black solid;
+	padding: 20px;
+}
+article {
+	background-color: #E89C6C;
+	border: 1px black solid;
 	padding: 20px;
 }
 footer {
-	background-color: #2C858D;
+	background-color: #FF957E;
 	padding: 20px;
 	text-align: center;
 	color: #CCCCCC;
 }
-img{
+div section {
+	background-color: #FFED74;
+	border: 1px black solid;
+	padding: 20px;
+}
+img {
 	width: 100%;
 }
 main {
