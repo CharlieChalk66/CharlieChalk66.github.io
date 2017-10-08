@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway|Roboto+Slab');
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing:border-box; 
+}
+
+body {
+	font-family: "Lato", Lato, Arial, sans-serif;
+	font-size: 20px;
+	line-height: 1.5;
+}
+header {
+	background-color: #FFB7CF;
+	border: 1px black solid;
+	padding: 20px;
+}
+nav {
+	border: 1px black solid;
+	padding: 20px;
+	text-align: center;
+	background-color: #FFC675;
+	font-size: 30px;
+}
+nav a {
+	color: #ffffff;
+	display: block;
+	width: 250px;
+	float: left;
+	padding: 10px 0;
+}
+nav a:hover {
+	background-color: #dd0000;
+}
+aside {
+	background-color: #FFC675;
+	border: 1px black solid;
+	padding: 20px;
+	text-align: left;
+	font-size: 20px
+;
+}
+article {
+	background-color: #E89C6C;
+	border: 1px black solid;
+	padding: 20px;
+	text-align: left;
+	font-size: 20px;
+}
+footer {
+	background-color: #FF957E;
+	padding: 20px;
+	color: #000;
+}
+div section {
+	background-color: #FFED74;
+	border: 1px black solid;
+	padding: 20px;
+}
+img {
+	width: 100%;
+}
+main {
+	padding: 20px;
+}
+a{
+	color: #35A67C;
+	text-decoration: none;
+}
+h1{
+	font-family: 'Roboto Slab', serif;
+	color: #004056;
+	font-size: 3em;
+}
+h2{
+	font-family: 'Roboto Slab', serif;
+	color: #000;
+	font-size: 1.5em;
+}
+#two_column {
+	background-color: #FFB7CF;
+	border: 1px black solid;
+	padding: 20px;
+}
+#left {
+	background-color: violet;
+	border: 1px black solid;
+	float: left;
+	width: 35%;
+}
+#right {
+	background-color: pink;
+	border: 1px black solid;
+	padding: 20px;
+	float: right;
+	width: 62%;
+}
+.clearfix:after {
+	visibility: : hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
