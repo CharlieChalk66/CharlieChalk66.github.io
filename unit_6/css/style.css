@@ -34,7 +34,7 @@ nav a:hover {
 	background-color: #dd0000;
 }
 aside {
-	background-color: #FFC675;
+	background-color: #8F0033;
 	border: 1px black solid;
 	padding: 20px;
 	text-align: left;
@@ -42,7 +42,7 @@ aside {
 ;
 }
 article {
-	background-color: #E89C6C;
+	background-color: #FF196C;
 	border: 1px black solid;
 	padding: 20px;
 	text-align: left;
@@ -84,13 +84,13 @@ h2{
 	padding: 20px;
 }
 #left {
-	background-color: violet;
+	background-color: #FF196C;
 	border: 1px black solid;
 	float: left;
 	width: 35%;
 }
 #right {
-	background-color: pink;
+	background-color: ##8F0033;
 	border: 1px black solid;
 	padding: 20px;
 	float: right;
