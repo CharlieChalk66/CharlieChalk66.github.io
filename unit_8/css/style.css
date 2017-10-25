@@ -12,7 +12,7 @@ body {
 	line-height: 1.5;
 }
 header {
-	background-color: #FFB7CF;
+	background-color: #FFF;
 	border: 1px black solid;
 	padding: 20px;
 	font-size: 30px;
@@ -22,17 +22,17 @@ nav {
 	border: 1px black solid;
 	padding: 20px;
 	text-align: center;
-	background-color: #FFC675;
+	background-color: #90B4BF;
 	font-size: 30px;
 }
 nav a {
-	color: #ffffff;
+	color: #D1D8D1;
 	display: block;
 	width: 250px;
 	float: left;
-	padding: 10px 0;
+	padding: 5px 0;
 }
-nav a: hover {
+nav a:hover {
 	background-color: #dd0000;
 }
 aside {
@@ -40,8 +40,7 @@ aside {
 	border: 1px black solid;
 	padding: 20px;
 	text-align: left;
-	font-size: 20px
-;
+	font-size: 20px;
 }
 article {
 	background-color: #FF196C;
@@ -51,7 +50,7 @@ article {
 	font-size: 20px;
 }
 footer {
-	background-color: #FF957E;
+	background-color: #D1D8D1;
 	padding: 20px;
 	color: #000;
 }
@@ -62,17 +61,18 @@ div section {
 }
 img {
 	width: 100%;
+	display: block;
 }
 main {
 	padding: 20px;
 }
-a{
+a {
 	color: #35A67C;
 	text-decoration: none;
 }
 h1{
 	font-family: 'Roboto Slab', serif;
-	color: #004056;
+	color: #647073;
 	font-size: 1.5em;
 	text-align: center;
 }
@@ -85,9 +85,9 @@ h2 {
 form {
 	text-align: center;
 }
-#logo {
+.logo {
 	font-family: 'Roboto Slab', serif;
-	color: #000;
+	color: #505A5C;
 	font-size: 2em;
 	text-align: center;
 }
@@ -98,12 +98,12 @@ form {
 	display: block;
 }
 #two_column {
-	background-color: #FFB7CF;
+	background-color: #FFF;
 	border: 1px black solid;
 	padding: 20px;
 }
 #left {
-	background-color: #FF196C;
+	background-color: #FFF;
 	border: 1px black solid;
 	padding: 20px;
 	float: left;
